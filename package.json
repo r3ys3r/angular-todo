@@ -1,0 +1,17 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "A simple todo app for organization",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.2.32"
+  },
+  "devDependencies": {
+    "gulp-cli": "^1.2.2"
+  },
+  "scripts": {
+    "test": "cd"
+  },
+  "author": "",
+  "license": "ISC"
+}
