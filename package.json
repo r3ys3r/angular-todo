@@ -7,7 +7,9 @@
     "angular": "^1.2.32"
   },
   "devDependencies": {
-    "gulp-cli": "^1.2.2"
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2"
   },
   "scripts": {
     "test": "cd"
