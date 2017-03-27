@@ -13,11 +13,12 @@ function TodoCtrl($scope){
 	$scope.clearCompleted = function() {
 		$scope.todos = _.filter($scope.todos, function(todo){
 			return !todo.done;
-		})
+		});
 	}
 	
 	$scope.addTodo = function() {
 		$scope.todos.push({text:$scope.formTodoText, done:false});
 		$scope.formTodoText = '';
+		$scope.$log = 'Todo was added';
 	}
 }
