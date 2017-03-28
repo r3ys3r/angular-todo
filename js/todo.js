@@ -11,7 +11,7 @@ function TodoCtrl($scope){
 	}
 	
 	$scope.clearCompleted = function() {
-		$scope.todos = _.filter($scope.todos, function(todo){
+		$scope.todos = _.filter($scope.todos, function(todos){
 			return !todo.done;
 		});
 	}
